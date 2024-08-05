@@ -1,8 +1,8 @@
-# React + Vite
+#Introducción al Desarrollo de un Gestor de Tareas con React Hooks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un gestor de tareas es una aplicación sencilla que permite a los usuarios agregar, editar, eliminar y marcar tareas como completadas. Utilizando React, podemos construir esta aplicación de manera eficiente utilizando hooks, que son funciones que nos permiten usar el estado y otras características de React sin escribir una clase.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React Hooks Utilizados
+useState: Para manejar el estado local en componentes funcionales.
+useContext: Para compartir estado entre componentes sin necesidad de pasar props manualmente a través de la jerarquía de componentes.
+useEffect: Para realizar efectos secundarios en componentes, como la actualización de tareas pendientes y completadas.
