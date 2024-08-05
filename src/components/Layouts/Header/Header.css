@@ -1,0 +1,25 @@
+
+  .header-app {
+    background-color: #b0d3b4; 
+    color: rgb(182, 135, 135); 
+    padding: 20px; 
+    text-align: center; 
+    font-size: 24px; 
+    font-weight: bold; 
+    font-family: cursive;
+    border-radius: 30px;
+    border: 5px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+    
+    
+    width: 45rem;
+    height: 45rem;
+  }
+  
+  .header-app > * {
+    margin: 0; 
+  }
+  
+
+
+

@@ -1,0 +1,52 @@
+
+  .container-filters {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 26px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-content: space-between;
+    justify-content: center;
+  }
+  
+  .container-filters label {
+    margin-right: 15px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .container-filters select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-family: cursive;
+  }
+  
+  .container-filters select:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  .container-filters .opt {
+    font-size: 16px;
+  }
+  
+  .container-filters .opt1 {
+    color: #000;
+  }
+  
+  .container-filters .opt2 {
+    color: #ff9800;
+  }
+  
+  .container-filters .opt3 {
+    color: #4caf50;
+  }
+  

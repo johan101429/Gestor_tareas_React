@@ -1,0 +1,55 @@
+/* Estilos generales para el componente Home */
+.container-header-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #668a67; 
+    color: #141313;
+    font-family: cursive;
+    border: 5px solid;
+    border-radius: 30px;
+}
+  
+  
+  .container-title {
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .title-header {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  
+  
+  /* Estilos para el botón del perfil */
+  .img-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  /* Estilos para el contenedor principal */
+  main {
+    padding: 20px;
+  }
+  
+  /* Asegurando que el contenedor de tareas y demás componentes se alineen */
+  .container-tasks {
+    margin-top: 20px;
+  }
+  
+  /* Estilos para los elementos de tarea */
+  .item-task {
+    margin-bottom: 10px;
+  }
+  
+  /* Opcional: Agregar estilos para los componentes NewTask, InfoTasks y FilterTasks */
+  .frm-task, .info-tasks, .container-filters {
+    margin-bottom: 20px;
+  }
+  
